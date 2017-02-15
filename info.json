@@ -1,0 +1,15 @@
+{
+	"name": "ores-to-mineral-sludge",
+	"version": "0.0.1",
+	"factorio_version": "0.14",
+	"title": "Ores to Mineral Sludge",
+	"author": "bigyihsuan",
+	"contact": "",
+	"homepage": "",
+	"description": "An extension to Angel's Refining. Melt down ores to make small amounts of mineral sludge.",
+	"dependencies": [
+		"base >= 0.14.0",
+		"? bobplates >= 0.14.0",
+		"angelpetrochem >= 0.6.5"
+	]
+}
