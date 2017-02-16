@@ -1,5 +1,5 @@
-function addOre(oreName, modName)
-	return {
+function addOre(oreName)
+	return data.extend({{
 		type = 'recipe',
 		name = oreName .. '-to-mineral-sludge',
 		ingredients = {
@@ -14,9 +14,9 @@ function addOre(oreName, modName)
     	energy_required = 2,
 		enabled = true,
 		icons = {
-			{'__angelsrefining__/graphics/icons/slag-processing-blank.png'},
-			{'__bobplates__/graphics/icons/ore/' .. oreName .. '.png'}
+			{'__ore-to-mineral-sludge__/icon/slag-processing-overlay.png'},
+			{'__bobores__/graphics/icons/' .. oreName .. '.png'}
 		},
-		order = "e [" .. oreName .. "-to-slag]"
-	}
+		order = "e [" .. oreName .. "-to-mineral-sludge]"
+	}})
 end
